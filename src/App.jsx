@@ -42,6 +42,20 @@ export default function App() {
           </div>
         </div>
       </div>
+
+      {/* Footer */}
+      <footer className="text-center py-6 text-gray-600 text-sm">
+        ©2025, created by{' '}
+        <a 
+          href="https://rohanbandha.github.io/portfolio/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-indigo-600 hover:text-indigo-800 transition-colors"
+        >
+          Rohan Bandha
+        </a>
+        , Manishi Marjeet and R Kiran
+      </footer>
     </div>
   );
 }
